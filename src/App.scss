@@ -1,0 +1,11 @@
+.app {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  max-width: 1440px;
+  margin: auto;
+
+  @media (max-width: 800px) {
+    padding: 0.5rem 2rem 4rem 2rem;
+  }
+}

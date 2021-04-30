@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  @media (max-width: 450px) {
+    font-size: 55%;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 45%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  background: radial-gradient(
+      circle,
+      rgba(rgb(255, 255, 255), 0) 10%,
+      rgba(rgb(0, 0, 0), 0.4) 100%
+    ),
+    url("./assets/table-canvas.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+}

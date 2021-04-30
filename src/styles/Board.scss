@@ -1,0 +1,10 @@
+.board {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 0.7fr 1fr;
+  color: white;
+
+  @media (max-width: 430px) {
+    grid-template-rows: 0.5fr 1fr;
+  }
+}
