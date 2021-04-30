@@ -44,7 +44,7 @@ const Board = () => {
     if (
       playerTool[0].betAmount === 0 &&
       playerTool[1].betAmount === 0 &&
-      playerTool[2].betAmount != 0
+      playerTool[2].betAmount !== 0
     ) {
       setActivePlayerTools([playerTool[2]]);
       setPlayButtonStatus(false);
@@ -52,7 +52,7 @@ const Board = () => {
 
     if (
       playerTool[0].betAmount === 0 &&
-      playerTool[1].betAmount != 0 &&
+      playerTool[1].betAmount !== 0 &&
       playerTool[2].betAmount === 0
     ) {
       setActivePlayerTools([playerTool[1]]);
@@ -60,7 +60,7 @@ const Board = () => {
     }
 
     if (
-      playerTool[0].betAmount != 0 &&
+      playerTool[0].betAmount !== 0 &&
       playerTool[1].betAmount === 0 &&
       playerTool[2].betAmount === 0
     ) {
@@ -70,25 +70,25 @@ const Board = () => {
 
     if (
       playerTool[0].betAmount === 0 &&
-      playerTool[1].betAmount != 0 &&
-      playerTool[2].betAmount != 0
+      playerTool[1].betAmount !== 0 &&
+      playerTool[2].betAmount !== 0
     ) {
       setActivePlayerTools([playerTool[1], playerTool[2]]);
       setPlayButtonStatus(false);
     }
 
     if (
-      playerTool[0].betAmount != 0 &&
+      playerTool[0].betAmount !== 0 &&
       playerTool[1].betAmount === 0 &&
-      playerTool[2].betAmount != 0
+      playerTool[2].betAmount !== 0
     ) {
       setActivePlayerTools([playerTool[0], playerTool[2]]);
       setPlayButtonStatus(false);
     }
 
     if (
-      playerTool[0].betAmount != 0 &&
-      playerTool[1].betAmount != 0 &&
+      playerTool[0].betAmount !== 0 &&
+      playerTool[1].betAmount !== 0 &&
       playerTool[2].betAmount === 0
     ) {
       setActivePlayerTools([playerTool[0], playerTool[1]]);

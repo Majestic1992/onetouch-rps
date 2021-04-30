@@ -35,7 +35,7 @@ const Player = ({
         ))}
       </div>
       <div className="player__bank">
-        <img src={chips} className="player__bank--image" />
+        <img src={chips} alt="chips" className="player__bank--image" />
         <p className="player__bank--balance">{balance}</p>
       </div>
       <div className="player__button">

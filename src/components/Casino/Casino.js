@@ -7,7 +7,7 @@ const Casino = ({ casinoImage }) => {
       <h1 className="casino__name">Casino:</h1>
       <div className="casino__picture">
         {casinoImage != null ? (
-          <img src={casinoImage} />
+          <img src={casinoImage} alt="casino tool" />
         ) : (
           <h2>Waiting for your bets</h2>
         )}
