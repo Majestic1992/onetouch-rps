@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Tool.scss";
 
-const Weapon = ({
+const Tool = ({
   image,
   betAmount,
   newGameButton,
@@ -65,4 +65,4 @@ const Weapon = ({
   );
 };
 
-export default Weapon;
+export default Tool;

@@ -18,7 +18,7 @@ const Player = ({
   return (
     <div className="player">
       <h1 className="player__name">Player:</h1>
-      <div className="player__weapon">
+      <div className="player__tool">
         {playerTool.map((tool) => (
           <Tool
             key={tool.id}
